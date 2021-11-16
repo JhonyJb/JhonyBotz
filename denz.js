@@ -275,8 +275,8 @@ try {
 				Badmin: 'Make the bot a group admin!'
 			}
 		}
-		const botNumber = denz.user.jid
-		const ownerNumberr = ["6282138919347@s.whatsapp.net","6282138919347@s.whatsapp.net","6282138919347@s.whatsapp.net","6282138919347@s.whatsapp.net",`${NomorOwner}@s.whatsapp.net`]
+		const botNumber = 6281703438592
+		const ownerNumberr = ["6282138919347@s.whatsapp.net","6282138919347@s.whatsapp.net","6282138919347@s.whatsapp.net","6282138919347@s.whatsapp.net",`${6289688200278}@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		const sender = mek.key.fromMe ? denz.user.jid : isGroup ? mek.participant : mek.key.remoteJid
 		const senderNumber = sender.split("@")[0] 
